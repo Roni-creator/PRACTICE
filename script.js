@@ -30,20 +30,20 @@ fetch(`http://localhost:3000/quotes`,{
 QuoteForm.addEventListener("submit", createNewQuote)
 
 
-//  QuoteForm.addEventListener("submit", (e) => {
-//    e.preventDefault();
+ QuoteForm.addEventListener("submit", (e) => {
+   e.preventDefault();
  
    
  
-//    if (quotename.value == "" || AuthorName.value == "") {
-//      alert("Ensure you input a value in both fields!");
-//    } else {
-//      // perform operation with form input
-//      alert("This Quote has been successfully Added!");
-//       quotename.value = "";
-//      AuthorName.value = "";
-//    }
-//  })
+   if (quotename.value == "" || AuthorName.value == "") {
+     alert("Ensure you input a value in both fields!");
+   } else {
+     // perform operation with form input
+     alert("This Quote has been successfully Added!");
+      quotename.value = "";
+     AuthorName.value = "";
+   }
+ })
 const getNewQuote = async () =>
 {
     //api for quotes
