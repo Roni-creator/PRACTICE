@@ -74,8 +74,3 @@ soundBtn.addEventListener("click",()=>{
 
 
 
-// function addQuote(quotes){
-   
-//     .then(res => res.json())
-//     .then(data =>console.log(data))
-// }
